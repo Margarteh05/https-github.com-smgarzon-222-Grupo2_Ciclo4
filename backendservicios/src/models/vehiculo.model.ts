@@ -37,7 +37,7 @@ export class Vehiculo extends Entity {
     type: 'date',
     required: true,
   })
-  fecha_de_creacion: Date;
+  fecha_de_creacion: string;
 
 
   constructor(data?: Partial<Vehiculo>) {
