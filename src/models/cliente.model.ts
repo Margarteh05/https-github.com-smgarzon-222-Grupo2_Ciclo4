@@ -19,7 +19,7 @@ export class Cliente extends Entity {
     type: 'string',
     required: true,
   })
-  nombre_completo: string;
+  nombre: string;
 
   @property({
     type: 'string',
